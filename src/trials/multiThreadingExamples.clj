@@ -2,7 +2,7 @@
 
 (def keep-running? (volatile! true))
 
-;FAILS 
+;FAILS
 (def threadA (doto (Thread. (fn []
                               (Thread/sleep 10000)
                               (vreset! keep-running? false)))
