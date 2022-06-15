@@ -1,4 +1,4 @@
-(ns trials.highOrderFunctions)
+(ns trials.cube_examples)
 
 (defn cube [num]
   (* num num num))

@@ -1,6 +1,6 @@
 (ns trials.core-test
   (:require [clojure.test :refer :all]
-            [trials.highOrderFunctions :refer :all]))
+            [trials.cube_examples :refer :all]))
 
 (deftest a-test
   (testing "FIXME, I fail."
